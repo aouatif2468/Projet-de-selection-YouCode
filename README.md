@@ -35,13 +35,13 @@ Ce projet réalise cette première exploration : lecture des données, résumé 
 ## 5. Mode d'exécution du projet
 
 ### Prérequis
-- Miniconda installé (Python 3.x)
+- Miniconda installé (Python  3.13.13)
 - Jupyter Notebook
 - Bibliothèques Python : `pandas`, `matplotlib`
 
 ### Installation
 ```bash
-conda create -n sell4all python=3.11
+conda create -n sell4all python= 3.13.13
 conda activate sell4all
 pip install pandas matplotlib jupyter
 ```
