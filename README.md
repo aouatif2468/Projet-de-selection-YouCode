@@ -54,6 +54,6 @@ Puis exécuter les cellules dans l'ordre (`Kernel > Restart & Run All`).
 
 ### Fichiers du dépôt
 - `exploration_donnees_sell4all.ipynb` : notebook contenant tout le code, les résultats et les explications.
-- `dataset-sell4all.csv` : jeu de données brut (à remplacer par le fichier fourni si différent).
+- `dataset-sell4all.csv` : jeu de données brut.
 - `dataset-sell4all-clean.csv` : jeu de données nettoyé, résultat final.
 - `README.md` : ce fichier.
