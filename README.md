@@ -28,7 +28,6 @@ Ce projet réalise cette première exploration : lecture des données, résumé 
 
 ## 4. Difficultés rencontrées et solutions
 
-- **Valeurs manquantes dans la colonne Age** : identifiées grâce à `.info()` (colonne `Non-Null Count` inférieure au nombre total de lignes). Elles ont été conservées à ce stade (traitement en amont d'un futur pipeline IA) mais clairement signalées dans le résumé technique.
 - **Distinction moyenne / médiane** : pour bien qualifier la donnée, il fallait comprendre que la moyenne peut être biaisée par des valeurs extrêmes de dépenses ; la médiane donne une vision plus fidèle de la tendance centrale.
 - **Ordre des opérations de nettoyage** : il fallait filtrer les dépenses avant de dédupliquer pour éviter d'incohérences dans le comptage des lignes supprimées.
 
